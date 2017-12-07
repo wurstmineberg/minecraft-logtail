@@ -3,4 +3,15 @@ name = "minecraft-logtail"
 version = "0.1.0"
 authors = ["Fenhl <fenhl@fenhl.net>"]
 
+[lib]
+name = "minecraft_logtail"
+path = "src/lib.rs"
+
+[[bin]]
+name = "minecraft-logtail"
+path = "src/main.rs"
+doc = false
+test = false
+bench = false
+
 [dependencies]
